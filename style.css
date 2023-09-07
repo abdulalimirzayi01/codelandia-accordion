@@ -1,0 +1,41 @@
+.maintext{
+    color: #08bb7b !important;
+    font-size: 70px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 5rem;
+}
+body{
+    background-color: #1e1e1e !important;
+}
+
+.main-box {
+    color: white;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 2rem 1rem;
+}
+.title i{
+    color: darkgreen !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+}
+.content.active{
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    margin: auto;
+    transition: .7s;
+    padding: 0 1rem;
+}
